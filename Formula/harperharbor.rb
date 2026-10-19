@@ -1,25 +1,25 @@
 class Harperharbor < Formula
   desc "Command-line client for HarperHarbor administrators"
   homepage "https://harperharbor.com"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://cli.harperharbor.com/releases/v0.1.0/harperharbor_0.1.0_darwin_arm64.tar.gz"
-      sha256 "4ac7bd05b1156ffb607795bdcd5f53db7eacdfbe6c233218c1c687d2d74ccf09"
+      url "https://cli.harperharbor.com/releases/v0.2.0/harperharbor_0.2.0_darwin_arm64.tar.gz"
+      sha256 "3290f080789c80266a13be470038c58dbb9179736ebcfa4d1ac6b745e9152961"
     else
-      url "https://cli.harperharbor.com/releases/v0.1.0/harperharbor_0.1.0_darwin_amd64.tar.gz"
-      sha256 "8b182aac6b5f55a39a72eed9fbb463470e66944434909529ee03dfe067134936"
+      url "https://cli.harperharbor.com/releases/v0.2.0/harperharbor_0.2.0_darwin_amd64.tar.gz"
+      sha256 "fbf54ee8d6ec76efdb0ceb1cfb65cb53a6650f9441b8134800735cbb913a9f4d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://cli.harperharbor.com/releases/v0.1.0/harperharbor_0.1.0_linux_arm64.tar.gz"
-      sha256 "20a84522fe056e03c29bc8519c15826a88f5879edf1418d3934401dcd9825edf"
+      url "https://cli.harperharbor.com/releases/v0.2.0/harperharbor_0.2.0_linux_arm64.tar.gz"
+      sha256 "d3ed883e9b36376dcd71456e8c5234449e38121d5322b1d40a7a9a4b4c187cbb"
     else
-      url "https://cli.harperharbor.com/releases/v0.1.0/harperharbor_0.1.0_linux_amd64.tar.gz"
-      sha256 "dbdc95ed18daae6e28ecdadbb74bd82371ac1600291aca66cb56cf6fd268daba"
+      url "https://cli.harperharbor.com/releases/v0.2.0/harperharbor_0.2.0_linux_amd64.tar.gz"
+      sha256 "ea2d7321f32f1992a1fef64395721507ab4d3a262c6b5f09e2140a29c304a401"
     end
   end
 
